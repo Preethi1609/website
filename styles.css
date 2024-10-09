@@ -2,13 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
 header {
-    background: #0077cc;
+    background-color: #0077cc;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
 }
 
@@ -23,8 +22,13 @@ nav ul li {
 }
 
 nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #0077cc;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -34,7 +38,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #f4f4f4;
+    background-color: #f4f4f4;
     position: relative;
     bottom: 0;
     width: 100%;
