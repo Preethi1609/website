@@ -5,82 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Preethi Narasimha Murthy</title>
   <style>
-    /* Global styles */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-    }
     #skills {
       background-color: #fff;;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      /* color: #fff; */
-      /* padding: 40px 20px;
-      text-align: center; */
     }
-/* 
-    .skills-item {
-        margin-bottom: 20px;
+  /* Global styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
     }
-
-    .skills-item h3 {
-        font-size: 1.2em; /* Adjusted font size for consistency */
-        /* color: #333;
-        font-weight: bold;
-        margin-bottom: 8px;
-    }
-
-    .skills-item p {
-        font-size: 1em; /* Set consistent font size for paragraphs */
-        /* color: #555;
-        line-height: 1.6;
-    }
-
-    .skills-item p a {
-        color: #007bff;
-        text-decoration: none;
-    }
-
-    .skills-item p a:hover {
-        text-decoration: underline;
-    }
-
-    #skills h2 {
-        font-size: 1.8em; /* Slightly smaller heading size for better consistency */
-        /* color: #222;
-        margin-bottom: 20px;
-        font-weight: bold;
-    /* } */ */ */ */ */
-
 
     /* Header styles */
     header {
-      background-color: #2c3e50;
-      color: #fff;
-      padding: 20px 0;
+        background-color: #2c3e50;
+        color: #fff;
+        padding: 20px 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
     }
+
     nav ul {
-      list-style-type: none;
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
+
     nav li {
-      margin: 0 20px;
+        margin: 0 20px;
     }
+
     nav a {
-      color: #fff;
-      text-decoration: none;
+        color: #fff;
+        text-decoration: none;
     }
-    /* Main content styles */
+
+    /* Adjust main content padding to account for fixed header */
     main {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 80px 20px; /* Increased top padding to prevent content from being hidden under the fixed header */
     }
     .profile {
       display: flex;
@@ -135,8 +106,8 @@
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#research">Research</a></li>
+        <li><a href="#experience">Industrial Experience</a></li>
+        <li><a href="#research">Research Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -192,7 +163,7 @@
     </section>
     
     <section id="experience">
-        <h2>Experience</h2>
+        <h2>Industrial Experience</h2>
         <div class="education-item">
           <h3>Schlumberger</h3>
           <p>May 2024 - August 2024</p>
