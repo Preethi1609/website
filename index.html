@@ -12,6 +12,46 @@
       padding: 0;
       background-color: #f9f9f9;
     }
+    #skills {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .skills-item {
+        margin-bottom: 20px;
+    }
+
+    .skills-item h3 {
+        font-size: 1.3em;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .skills-item p {
+        font-size: 1.1em;
+        color: #555;
+        line-height: 1.6;
+    }
+
+    .skills-item p a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .skills-item p a:hover {
+        text-decoration: underline;
+    }
+
+    #skills h2 {
+        font-size: 2em;
+        color: #222;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
     /* Header styles */
     header {
       background-color: #2c3e50;
@@ -89,8 +129,9 @@
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#expereince">Experience</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#research">Research</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -112,6 +153,30 @@
       </div>
     </section>
 
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-item">
+            <h3>Languages and Version Control</h3>
+            <p>Python, C/C++, Java, SQL, Bash, JavaScript, CUDA, Go</p>
+        </div>
+        <div class="skills-item">
+            <h3>Technologies and Skills</h3>
+            <p>Docker, Kubernetes, GCP, Linux, Git, MongoDB, Postgres, Terraform, ETL, High-Performance Computing</p>
+        </div>
+        <div class="skills-item">
+            <h3>Tools</h3>
+            <p>Prometheus, Thanos, Grafana, Kibana, Fluentd, Rancher, Terraform, GitLab CI/CD, Confluence, PagerDuty, </p>
+        </div>
+        <div class="skills-item">
+            <h3>Certifications</h3>
+            <p><a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=51751711D673462173CF68CF4D5C939C8E798FA4066BBD7D16483768AD76B27D">Oracle Cloud Foundations Associate</a></p>
+        </div>
+        <div class="skills-item">
+            <h3>Publications</h3>
+            <p><a href="https://ieeexplore.ieee.org/document/9588769">Mobile Covid Sanitization Robot</a></p>
+        </div>
+    </section>
+    
     <section id="education">
       <h2>Education</h2>
       <div class="education-item">
